@@ -15,6 +15,8 @@
 		88219A3228ABA8F90042288D /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88219A3128ABA8F90042288D /* AuthorizationViewController.swift */; };
 		88219A3428ABCEE20042288D /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88219A3328ABCEE20042288D /* TokenService.swift */; };
 		968DF5E528AD747200BE47BB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 968DF5E428AD747200BE47BB /* Alamofire */; };
+		968DF5E728AD78BC00BE47BB /* AuthorizationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968DF5E628AD78BC00BE47BB /* AuthorizationInteractor.swift */; };
+		968DF5E928AD799900BE47BB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968DF5E828AD799900BE47BB /* Models.swift */; };
 		968F238F28AD4872009ADD6F /* UserProfileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F237928AD4872009ADD6F /* UserProfileFactory.swift */; };
 		968F239028AD4872009ADD6F /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F237A28AD4872009ADD6F /* UserProfileViewController.swift */; };
 		968F239128AD4872009ADD6F /* UserProfileSkillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F237C28AD4872009ADD6F /* UserProfileSkillsCell.swift */; };
@@ -47,6 +49,8 @@
 		88219A2B28AB9F600042288D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88219A3128ABA8F90042288D /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		88219A3328ABCEE20042288D /* TokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenService.swift; sourceTree = "<group>"; };
+		968DF5E628AD78BC00BE47BB /* AuthorizationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationInteractor.swift; sourceTree = "<group>"; };
+		968DF5E828AD799900BE47BB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		968F237928AD4872009ADD6F /* UserProfileFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileFactory.swift; sourceTree = "<group>"; };
 		968F237A28AD4872009ADD6F /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		968F237C28AD4872009ADD6F /* UserProfileSkillsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileSkillsCell.swift; sourceTree = "<group>"; };
@@ -123,7 +127,9 @@
 			isa = PBXGroup;
 			children = (
 				88219A3128ABA8F90042288D /* AuthorizationViewController.swift */,
+				968DF5E628AD78BC00BE47BB /* AuthorizationInteractor.swift */,
 				88219A2128AB9F5E0042288D /* ViewController.swift */,
+				968DF5E828AD799900BE47BB /* Models.swift */,
 			);
 			path = Authorization;
 			sourceTree = "<group>";
@@ -272,6 +278,8 @@
 				88219A3228ABA8F90042288D /* AuthorizationViewController.swift in Sources */,
 				968F239C28AD4872009ADD6F /* UserProfileAchievementsView.swift in Sources */,
 				968F239428AD4872009ADD6F /* UserProfileLocationView.swift in Sources */,
+				968DF5E928AD799900BE47BB /* Models.swift in Sources */,
+				968DF5E728AD78BC00BE47BB /* AuthorizationInteractor.swift in Sources */,
 				968F238F28AD4872009ADD6F /* UserProfileFactory.swift in Sources */,
 				968F23A028AD4872009ADD6F /* UserProfileAchievementsViewModel.swift in Sources */,
 				968F239B28AD4872009ADD6F /* UserProfileInfoView.swift in Sources */,

@@ -47,6 +47,8 @@ class AuthorizationViewController: UIViewController, WKNavigationDelegate, WKUID
         title = "Welcome"
         authorization()
     }
+    
+    var interactor: AuthorizationInteractor?
 }
 
 extension AuthorizationViewController {
@@ -56,9 +58,14 @@ extension AuthorizationViewController {
     }
     
     func tryLogin() {
-        // Переход на экран UserProfileViewController
-//        let controller = UserProfileViewController(with: UserProfileViewModel()) // вся модель
-//        self.navigationController?.pushViewController(controller, animated: true)
+        let token = storeToken["token"] ?? ""
+        interactor = AuthorizationInteractor(token: token)
+        interactor?.getMe { [weak self] model in
+            guard let self = self else { return }
+            let userInfo = UserProfileFactory(model: model)
+            let viewController = userInfo.build()
+            self.navigationController?.pushViewController(viewController, animated: true)
+        }
     }
     
     func authorization() {
