@@ -14,7 +14,26 @@
 		88219A2A28AB9F600042288D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88219A2828AB9F600042288D /* LaunchScreen.storyboard */; };
 		88219A3228ABA8F90042288D /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88219A3128ABA8F90042288D /* AuthorizationViewController.swift */; };
 		88219A3428ABCEE20042288D /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88219A3328ABCEE20042288D /* TokenService.swift */; };
-		968F1AE928ABCF42009ADD6F /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F1AE828ABCF42009ADD6F /* UserProfileViewController.swift */; };
+		968F238F28AD4872009ADD6F /* UserProfileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F237928AD4872009ADD6F /* UserProfileFactory.swift */; };
+		968F239028AD4872009ADD6F /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F237A28AD4872009ADD6F /* UserProfileViewController.swift */; };
+		968F239128AD4872009ADD6F /* UserProfileSkillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F237C28AD4872009ADD6F /* UserProfileSkillsCell.swift */; };
+		968F239228AD4872009ADD6F /* UserProfileSkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F237D28AD4872009ADD6F /* UserProfileSkillsView.swift */; };
+		968F239328AD4872009ADD6F /* UserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F237E28AD4872009ADD6F /* UserProfileHeaderView.swift */; };
+		968F239428AD4872009ADD6F /* UserProfileLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F237F28AD4872009ADD6F /* UserProfileLocationView.swift */; };
+		968F239528AD4872009ADD6F /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238028AD4872009ADD6F /* UserProfileView.swift */; };
+		968F239628AD4872009ADD6F /* UserProfilePointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238128AD4872009ADD6F /* UserProfilePointsView.swift */; };
+		968F239728AD4872009ADD6F /* UserProfileProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238228AD4872009ADD6F /* UserProfileProjectsView.swift */; };
+		968F239828AD4872009ADD6F /* UserProfileProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238328AD4872009ADD6F /* UserProfileProgressView.swift */; };
+		968F239928AD4872009ADD6F /* UserProfileProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238428AD4872009ADD6F /* UserProfileProjectCell.swift */; };
+		968F239A28AD4872009ADD6F /* UserProfileTextAndImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238528AD4872009ADD6F /* UserProfileTextAndImageView.swift */; };
+		968F239B28AD4872009ADD6F /* UserProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238628AD4872009ADD6F /* UserProfileInfoView.swift */; };
+		968F239C28AD4872009ADD6F /* UserProfileAchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238728AD4872009ADD6F /* UserProfileAchievementsView.swift */; };
+		968F239D28AD4872009ADD6F /* UserProfileAchievementsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238828AD4872009ADD6F /* UserProfileAchievementsCell.swift */; };
+		968F239E28AD4872009ADD6F /* UserProfileProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238A28AD4872009ADD6F /* UserProfileProjectViewModel.swift */; };
+		968F239F28AD4872009ADD6F /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238B28AD4872009ADD6F /* UserProfileViewModel.swift */; };
+		968F23A028AD4872009ADD6F /* UserProfileAchievementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238C28AD4872009ADD6F /* UserProfileAchievementsViewModel.swift */; };
+		968F23A128AD4872009ADD6F /* UserProfileCursusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238D28AD4872009ADD6F /* UserProfileCursusViewModel.swift */; };
+		968F23A228AD4872009ADD6F /* UserProfileSkillsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F238E28AD4872009ADD6F /* UserProfileSkillsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +46,26 @@
 		88219A2B28AB9F600042288D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88219A3128ABA8F90042288D /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		88219A3328ABCEE20042288D /* TokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenService.swift; sourceTree = "<group>"; };
-		968F1AE828ABCF42009ADD6F /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		968F237928AD4872009ADD6F /* UserProfileFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileFactory.swift; sourceTree = "<group>"; };
+		968F237A28AD4872009ADD6F /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		968F237C28AD4872009ADD6F /* UserProfileSkillsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileSkillsCell.swift; sourceTree = "<group>"; };
+		968F237D28AD4872009ADD6F /* UserProfileSkillsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileSkillsView.swift; sourceTree = "<group>"; };
+		968F237E28AD4872009ADD6F /* UserProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileHeaderView.swift; sourceTree = "<group>"; };
+		968F237F28AD4872009ADD6F /* UserProfileLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileLocationView.swift; sourceTree = "<group>"; };
+		968F238028AD4872009ADD6F /* UserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		968F238128AD4872009ADD6F /* UserProfilePointsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfilePointsView.swift; sourceTree = "<group>"; };
+		968F238228AD4872009ADD6F /* UserProfileProjectsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileProjectsView.swift; sourceTree = "<group>"; };
+		968F238328AD4872009ADD6F /* UserProfileProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileProgressView.swift; sourceTree = "<group>"; };
+		968F238428AD4872009ADD6F /* UserProfileProjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileProjectCell.swift; sourceTree = "<group>"; };
+		968F238528AD4872009ADD6F /* UserProfileTextAndImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileTextAndImageView.swift; sourceTree = "<group>"; };
+		968F238628AD4872009ADD6F /* UserProfileInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileInfoView.swift; sourceTree = "<group>"; };
+		968F238728AD4872009ADD6F /* UserProfileAchievementsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileAchievementsView.swift; sourceTree = "<group>"; };
+		968F238828AD4872009ADD6F /* UserProfileAchievementsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileAchievementsCell.swift; sourceTree = "<group>"; };
+		968F238A28AD4872009ADD6F /* UserProfileProjectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileProjectViewModel.swift; sourceTree = "<group>"; };
+		968F238B28AD4872009ADD6F /* UserProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		968F238C28AD4872009ADD6F /* UserProfileAchievementsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileAchievementsViewModel.swift; sourceTree = "<group>"; };
+		968F238D28AD4872009ADD6F /* UserProfileCursusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileCursusViewModel.swift; sourceTree = "<group>"; };
+		968F238E28AD4872009ADD6F /* UserProfileSkillsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileSkillsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +109,10 @@
 		968F1AE728ABCF31009ADD6F /* UserProfile */ = {
 			isa = PBXGroup;
 			children = (
-				968F1AE828ABCF42009ADD6F /* UserProfileViewController.swift */,
+				968F238928AD4872009ADD6F /* Model */,
+				968F237928AD4872009ADD6F /* UserProfileFactory.swift */,
+				968F237A28AD4872009ADD6F /* UserProfileViewController.swift */,
+				968F237B28AD4872009ADD6F /* View */,
 			);
 			path = UserProfile;
 			sourceTree = "<group>";
@@ -103,6 +144,38 @@
 				88219A2B28AB9F600042288D /* Info.plist */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		968F237B28AD4872009ADD6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				968F237C28AD4872009ADD6F /* UserProfileSkillsCell.swift */,
+				968F237D28AD4872009ADD6F /* UserProfileSkillsView.swift */,
+				968F237E28AD4872009ADD6F /* UserProfileHeaderView.swift */,
+				968F237F28AD4872009ADD6F /* UserProfileLocationView.swift */,
+				968F238028AD4872009ADD6F /* UserProfileView.swift */,
+				968F238128AD4872009ADD6F /* UserProfilePointsView.swift */,
+				968F238228AD4872009ADD6F /* UserProfileProjectsView.swift */,
+				968F238328AD4872009ADD6F /* UserProfileProgressView.swift */,
+				968F238428AD4872009ADD6F /* UserProfileProjectCell.swift */,
+				968F238528AD4872009ADD6F /* UserProfileTextAndImageView.swift */,
+				968F238628AD4872009ADD6F /* UserProfileInfoView.swift */,
+				968F238728AD4872009ADD6F /* UserProfileAchievementsView.swift */,
+				968F238828AD4872009ADD6F /* UserProfileAchievementsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		968F238928AD4872009ADD6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				968F238A28AD4872009ADD6F /* UserProfileProjectViewModel.swift */,
+				968F238B28AD4872009ADD6F /* UserProfileViewModel.swift */,
+				968F238C28AD4872009ADD6F /* UserProfileAchievementsViewModel.swift */,
+				968F238D28AD4872009ADD6F /* UserProfileCursusViewModel.swift */,
+				968F238E28AD4872009ADD6F /* UserProfileSkillsViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,12 +248,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968F239F28AD4872009ADD6F /* UserProfileViewModel.swift in Sources */,
 				88219A2228AB9F5E0042288D /* ViewController.swift in Sources */,
-				968F1AE928ABCF42009ADD6F /* UserProfileViewController.swift in Sources */,
+				968F23A228AD4872009ADD6F /* UserProfileSkillsViewModel.swift in Sources */,
+				968F239028AD4872009ADD6F /* UserProfileViewController.swift in Sources */,
+				968F239328AD4872009ADD6F /* UserProfileHeaderView.swift in Sources */,
 				88219A1E28AB9F5E0042288D /* AppDelegate.swift in Sources */,
+				968F239528AD4872009ADD6F /* UserProfileView.swift in Sources */,
+				968F239628AD4872009ADD6F /* UserProfilePointsView.swift in Sources */,
 				88219A2028AB9F5E0042288D /* SceneDelegate.swift in Sources */,
+				968F239828AD4872009ADD6F /* UserProfileProgressView.swift in Sources */,
+				968F239928AD4872009ADD6F /* UserProfileProjectCell.swift in Sources */,
+				968F239A28AD4872009ADD6F /* UserProfileTextAndImageView.swift in Sources */,
+				968F239128AD4872009ADD6F /* UserProfileSkillsCell.swift in Sources */,
 				88219A3228ABA8F90042288D /* AuthorizationViewController.swift in Sources */,
+				968F239C28AD4872009ADD6F /* UserProfileAchievementsView.swift in Sources */,
+				968F239428AD4872009ADD6F /* UserProfileLocationView.swift in Sources */,
+				968F238F28AD4872009ADD6F /* UserProfileFactory.swift in Sources */,
+				968F23A028AD4872009ADD6F /* UserProfileAchievementsViewModel.swift in Sources */,
+				968F239B28AD4872009ADD6F /* UserProfileInfoView.swift in Sources */,
+				968F239E28AD4872009ADD6F /* UserProfileProjectViewModel.swift in Sources */,
+				968F239D28AD4872009ADD6F /* UserProfileAchievementsCell.swift in Sources */,
 				88219A3428ABCEE20042288D /* TokenService.swift in Sources */,
+				968F239228AD4872009ADD6F /* UserProfileSkillsView.swift in Sources */,
+				968F23A128AD4872009ADD6F /* UserProfileCursusViewModel.swift in Sources */,
+				968F239728AD4872009ADD6F /* UserProfileProjectsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
